@@ -1,0 +1,17 @@
+[project]
+name = "rlsu"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.3",
+    "pandas>=2.3.2",
+    "scipy>=1.16.2",
+    "tifffile>=2025.9.20",
+]
+
+[dependency-groups]
+dev = [
+    "napari[pyside6]>=0.6.4",
+]
